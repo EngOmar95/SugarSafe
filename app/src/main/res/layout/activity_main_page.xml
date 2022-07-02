@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="com.it342.sugarsafe.MainPage">
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="80dp"
+        android:layout_height="15dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:drawableLeft="@drawable/arrow_back"
+        android:foregroundGravity="left"
+        android:gravity="left"
+        android:text="@string/back"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_marginTop="300px"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        app:srcCompat="@drawable/logo" />
+
+
+
+    <Button
+        android:id="@+id/bloodSugarLevel"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/shap_buttens"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:text="@string/BloodSugarLevel"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/InsulinRatio"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shap_buttens"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:text="@string/InsulinRatio"
+        android:textSize="18dp" />
+
+
+</LinearLayout>

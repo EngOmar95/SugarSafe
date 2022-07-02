@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">SugarSafe</string>
+    <string name="back">back</string>
+    <string name="UserName">UserName</string>
+    <string name="Email">Email</string>
+    <string name="password">password</string>
+    <string name="age">age</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="SignUp">Sign up</string>
+    <string name="SignIn">Sign in</string>
+    <string name="Create_Account">New Account</string>
+    <string name="BloodSugarLevel">Blood Sugar Level</string>
+    <string name="InsulinRatio">Insulin Ratio</string>
+    <string name="select">Select</string>
+    <string name="percentageSugar">Enter the sugar percentage</string>
+    <string name="preDiabetesStage">You are in a pre-diabetes stage, so you must do the following to avoid getting the diabetes:\n
+    1- Lose weight.\n
+    2- Exercising for 30 minutes a day.\n
+    3- Eating a lot of vegetables and fruits and reducing fats and sugars.\n
+    4- Use of structured grains.\n</string>
+    <string name="sugarNormal">Normal Sugar level</string>
+    <string name="sugarHigh">You are in the stage of diabetes and you should see a doctor</string>
+    <string name="Weight">Enter your weight</string>
+    <string name="Invalid_Emil">Email Invalid</string>
+    <string name="Invalid_Password">should be password content on 8 characters and numbers</string>
+    <string name="Invalid_ConfPassword">password does not match</string>
+    <string name="Invalid_Required">required</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="invalid_confirm_password">Password does not match</string>
+    <string name="invalid_login">Email or password not correct </string>
+    <string name="succesfully">succesfully registered </string>
+
+
+
+
+
+</resources>

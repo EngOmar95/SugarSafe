@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="com.it342.sugarsafe.BloodSugarLevel">
+
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="60dp"
+        android:layout_height="20dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="20px"
+        android:drawableLeft="@drawable/arrow_back"
+        android:foregroundGravity="left"
+        android:gravity="left"
+        android:text="@string/back"
+        android:textColor="@color/TextColor"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"
+        android:fontFamily="sans-serif"
+        android:lineSpacingExtra="8sp"
+        android:padding="5pt"
+        android:text="Diabetes is a chronic disease that affects a large number of people, and the number of infected people in the Kingdom is currently estimated at 3 million, according to the estimates of the World Diabetes Organization."
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="@color/TextColor"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+
+        android:layout_gravity="center"
+
+        android:hint="@string/select"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/select"
+            android:inputType="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="990px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="@string/percentageSugar"
+        android:layout_marginTop="20px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/percentageSugar"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="number"/>
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shap_buttens"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:text="OK"
+        android:textSize="18dp" />
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        ></androidx.appcompat.widget.AppCompatImageView>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50px"
+        android:padding="5pt"
+                 android:scrollbars="vertical"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="RtlCompat" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "782852715771",
+    "project_id": "it342-8d020",
+    "storage_bucket": "it342-8d020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782852715771:android:82247aa1230558526b6c5e",
+        "android_client_info": {
+          "package_name": "com.it324.sugarsafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782852715771-6lp8qabi5f8pv6sieqe9n9tppdfgnst9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8rZw90hOtx0pTCX0KeLi9OV0iBEXoMOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782852715771-6lp8qabi5f8pv6sieqe9n9tppdfgnst9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

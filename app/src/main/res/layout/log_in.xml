@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    tools:context="com.it342.sugarsafe.LogIn">
+
+
+    <ImageView
+        android:layout_marginTop="300px"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        app:srcCompat="@drawable/logo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="900px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="@string/Email"
+        android:layout_marginTop="40px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="900px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:layout_marginTop="20px">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/CreateAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="20dp"
+
+        android:autoLink="all"
+
+        android:gravity="center"
+        android:paddingTop="20px"
+        android:text="@string/Create_Account"
+        android:textColor="#F44336"
+        android:textColorLink="#F44336"
+        android:textSize="14dp" />
+
+
+    <Button
+        android:id="@+id/signIn"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/shap_buttens"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:text="@string/SignIn"
+        android:textSize="18dp" />
+
+
+</LinearLayout>
